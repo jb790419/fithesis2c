@@ -5,13 +5,16 @@ This is a fork of fithesis2b LaTeX style used for theses at
 Masaryk University (Brno, Czech Republic).
 
 Original fithesis style, RNDr. Jan Pavlovič, Ph.D.:
+
 -   http://www.fi.muni.cz/~xpavlov/fithesis/
 -   http://www.fi.muni.cz/tech/unix/tex/fithesis.xhtml (older version)
 
 Style fithesis2, Bc. Stanislav Filipčík:
+
 -   http://is.muni.cz/th/173173/fi_b/
 
 Style fithesis2b from which I forked, Mgr. Věroš Kaplan, Ph.D.:
+
 -   https://github.com/VerosK/fithesis2b
 
 VerosK's Changes
