@@ -1,5 +1,5 @@
-fithesis2b
-==========
+fithesis2b-maple
+================
 
 This is a fork of fithesis2b LaTeX style used for theses at
 Masaryk University (Brno, Czech Republic).
