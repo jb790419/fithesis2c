@@ -12,7 +12,7 @@
 \fi
 \LoadClass{\clsclass}
 
-% Declaration of documentclass options 
+% Declaration of documentclass options
 \DeclareOption{10pt}{\renewcommand\@ptsize{0}}
 \DeclareOption{11pt}{\renewcommand\@ptsize{1}}
 \DeclareOption{12pt}{\renewcommand\@ptsize{2}}
@@ -107,7 +107,7 @@
 \def\@thesissubtitle{Diplomov\'{a} pr\'{a}ce} % default thesis title
 \def\lowecasewrapper#1{\lowercase{#1}}
 
-% definition of \thesisfaculty options 
+% definition of \thesisfaculty options
 \def\Fi{fi} % Faculty of Informatics
 \def\Sci{sci} % Faculty of Science
 \def\Law{law} % Faculty of Law
@@ -127,7 +127,7 @@
 
 % definition of commands that will be used to typeset title page
 % can be redefined in the source document
-\def\titlefont{\fontsize\@xxvpt{30}\selectfont} 
+\def\titlefont{\fontsize\@xxvpt{30}\selectfont}
 \def\thesistitle#1{\gdef\@thesistitle{#1}}
 \def\thesisstudent#1{\gdef\@thesisstudent{#1}}
 \def\thesisyear#1{\gdef\@thesisyear{#1}}
@@ -355,13 +355,8 @@ Advisor:
 {\sc \universityname\\ \facultyname}
 \vskip 1em
 
-% if FI then logo in METAFONT format will be typeset
-\ifx\@thesisfaculty\Fi
- {\filogo SL}\\[0.4in]
-% else logo defined in \facultylogo command will be used
-\else
- \includegraphics[width=40mm]{\facultylogo}\\[0.4in]
-\fi
+% logo defined in \facultylogo command will be used
+\includegraphics[width=40mm]{\facultylogo}\\[0.4in]
 
 % typesets thesis subtitle and the name of author
 % with year and place of university
@@ -438,7 +433,7 @@ Advisor:
 %\end{alwayssingle}
 %\newpage}
 
-% typesets thesis keywords 
+% typesets thesis keywords
 \newenvironment{ThesisKeyWords}{%
 \begin{alwayssingle}
 \ifx\@thesislang\Langcs
