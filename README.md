@@ -29,4 +29,4 @@ Please follow instructions mentioned on sites about former versions of this styl
 
 ## License: LPPL
 
-[LaTeX Project Public License](https://en.wikipedia.org/wiki/LaTeX_Project_Public_License)
+This work is licensed under a [LaTeX Project Public License](https://en.wikipedia.org/wiki/LaTeX_Project_Public_License).
