@@ -2,6 +2,10 @@
 
 This is a fork of LaTeX style used for theses at [Masaryk University](http://www.muni.cz) (Brno, Czech Republic).
 
+## Status: IDLE
+
+I'm not willing to continue in development as I'm done with my schooling. Project works as is by now. You are free to [fork it](https://github.com/honzajavorek/fithesis2b-maple/fork).
+
 ## Installation
 
 Please follow instructions mentioned on sites about former versions of this style (see below).
