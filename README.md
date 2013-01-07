@@ -37,7 +37,7 @@ Please follow instructions mentioned on sites about former versions of this styl
 
 -   edited LyX layout to have University and Logo accesable from GUI.
 -   edited sample thesis for LyX to correspond the layout.
--   edited sample thesis for other than MUNI students
+-   edited sample thesis for other than MUNI students 
 
 ## License: LPPL
 
