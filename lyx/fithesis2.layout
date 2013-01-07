@@ -46,6 +46,17 @@ Style Faculty
         LatexName               thesisfaculty
 End
 
+Style University
+	CopyStyle		Title
+        LatexName               thesisuniversity
+End
+
+Style Logo
+	CopyStyle		Title
+        LatexName               thesislogo
+End
+
+
 Style AuthorIsWoman
 	CopyStyle		Title
         LatexName               thesiswoman

@@ -77,8 +77,16 @@ Jane Doe
 false
 \end_layout
 
+\begin_layout University
+Masarykova univerzita
+\end_layout
+
 \begin_layout Faculty
-sci
+Fakulta informatiky
+\end_layout
+
+\begin_layout Logo
+fi-logo
 \end_layout
 
 \begin_layout Advisor
@@ -87,7 +95,7 @@ prof.
 \end_layout
 
 \begin_layout ThesisDate
-jaro 2011
+Brno, jaro 2011
 \end_layout
 
 \begin_layout ThesisLanguage
@@ -105,17 +113,51 @@ status open
 DeclarationText
 \end_layout
 
+\begin_layout Plain Layout
+
+
+\backslash
+AdvisorName
+\end_layout
+
 \end_inset
 
 
+\end_layout
+
+\begin_layout Keywords
+Smrk, žížala, krabice.
 \end_layout
 
 \begin_layout ThesisThanks
 Rád bych na tomto místě poděkoval svému vedoucímu...
 \end_layout
 
-\begin_layout Keywords
-Smrk, žížala, krabice.
+\begin_layout Standard
+\noindent
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MainMatter
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter

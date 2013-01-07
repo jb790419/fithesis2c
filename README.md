@@ -2,9 +2,9 @@
 
 This is a fork of LaTeX style used for theses at [Masaryk University](http://www.muni.cz) (Brno, Czech Republic).
 
-## Status: IDLE
+## Status: UPDATED (1.7. 2013)
 
-I'm not willing to continue in development as I'm done with my schooling. Project works as is by now. You are free to [fork it](https://github.com/honzajavorek/fithesis2b-maple/fork).
+I've edited some content to ease the use of this style for other than students studing at MUNI.
 
 ## Installation
 
@@ -21,15 +21,23 @@ Please follow instructions mentioned on sites about former versions of this styl
 
 -   http://is.muni.cz/th/173173/fi_b/
 
-### LyX style fithesis2b from which I forked, Mgr. Věroš Kaplan, Ph.D.
+### LyX style fithesis2b 1st fork, Mgr. Věroš Kaplan, Ph.D.
 
 -   https://github.com/VerosK/fithesis2b
 -   layout for LyX, sample thesis for LyX, table of contents doesn't use italic
 
-### My personalized changes (introducing fithesis2b-maple)
+### LyX style fithesis2b 2st fork, Mgr. Jan Javorek
 
+-   https://github.com/honzajavorek/fithesis2b-maple
 -   removed logos of other faculties except of Faculty of Informatics (I didn't need them)
 -   logo of Faculty of Informatics provided in PDF format (ready to use out of box)
+
+
+### My personalized changes (introducing fithesis2c)
+
+-   edited LyX layout to have University and Logo accesable from GUI.
+-   edited sample thesis for LyX to correspond the layout.
+-   edited sample thesis for other than MUNI students
 
 ## License: LPPL
 
