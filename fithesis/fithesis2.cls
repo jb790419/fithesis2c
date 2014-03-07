@@ -425,13 +425,13 @@ Advisor:
 
 % typesets thesis abstract in English
 % not used in fithesis2
-%\newenvironment{ThesisAbstracten}{%
-%\begin{alwayssingle}
-%\chapter*{\AbstractTitleen}
-%}
-%{\par\vfil\null
-%\end{alwayssingle}
-%\newpage}
+\newenvironment{ThesisAbstracten}{%
+\begin{alwayssingle}
+\chapter*{\AbstractTitleen}
+}
+{\par\vfil\null
+\end{alwayssingle}
+\newpage}
 
 % typesets thesis keywords
 \newenvironment{ThesisKeyWords}{%
