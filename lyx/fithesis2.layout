@@ -95,9 +95,21 @@ Style Abstract
 	Category	fithesis
 End
 
+Style AbstractEN
+	LatexType	Environment
+	LatexName	ThesisAbstracten
+	Category	fithesis
+End
+
 Style Keywords
 	LatexType	Environment
 	LatexName	ThesisKeyWords
+	Category	fithesis
+End
+
+Style KeywordsEN
+	LatexType	Environment
+	LatexName	ThesisKeyWordsen
 	Category	fithesis
 End
 
