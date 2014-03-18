@@ -410,45 +410,53 @@ Advisor:
 \newenvironment{ThesisAbstract}{%
 \begin{alwayssingle}
 \ifx\@thesislang\Langcs
- \chapter*{\AbstractTitlecs}
+ \section*{\AbstractTitlecs}
  \else \ifx\@thesislang\Langsk
-  \chapter*{\AbstractTitlesk}
+  \section*{\AbstractTitlesk}
   \else \ifx\@thesislang\Langen
-   \chapter*{\AbstractTitleen}
-   \else \chapter*{\AbstractTitlecs}
+   \section*{\AbstractTitleen}
+   \else \section*{\AbstractTitlecs}
   \fi
  \fi
 \fi}
 {\par\vfil\null
 \end{alwayssingle}
-\newpage}
+}%\newpage}
 
 % typesets thesis abstract in English
 % not used in fithesis2
-%\newenvironment{ThesisAbstracten}{%
-%\begin{alwayssingle}
-%\chapter*{\AbstractTitleen}
-%}
-%{\par\vfil\null
-%\end{alwayssingle}
-%\newpage}
+\newenvironment{ThesisAbstracten}{%
+\begin{alwayssingle}
+\section*{\AbstractTitleen}
+}
+{\par\vfil\null
+\end{alwayssingle}
+\newpage}
+
+\newenvironment{ThesisKeyWordsen}{%
+\begin{alwayssingle}
+\section*{\KeyWordsTitleen}
+}
+{\par\vfil\null
+\end{alwayssingle}
+}
 
 % typesets thesis keywords
 \newenvironment{ThesisKeyWords}{%
 \begin{alwayssingle}
 \ifx\@thesislang\Langcs
- \chapter*{\KeyWordsTitlecs}
+ \section*{\KeyWordsTitlecs}
  \else \ifx\@thesislang\Langsk
-  \chapter*{\KeyWordsTitlesk}
+  \section*{\KeyWordsTitlesk}
   \else \ifx\@thesislang\Langen
-   \chapter*{\KeyWordsTitleen}
-   \else \chapter*{\KeyWordsTitlecs}
+   \section*{\KeyWordsTitleen}
+   \else \section*{\KeyWordsTitlecs}
   \fi
  \fi
 \fi}
-{\par\vfill
+{\par\vfil\null
 \end{alwayssingle}
-\newpage}
+}
 
 % defines MainMatter command that begins main part
 % of the thesis with Arabic page numbering
