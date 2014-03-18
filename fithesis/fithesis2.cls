@@ -440,7 +440,7 @@ Autor pr\'{a}ce:
 }
 {\par\vfil\null
 \end{alwayssingle}
-\newpage}
+}%\newpage}
 
 \newenvironment{ThesisKeyWordsen}{%
 \begin{alwayssingle}
