@@ -274,7 +274,7 @@ Acknowledgement
 }
 % definition of heading of thesis abstract
 \def\AbstractTitlecs{%
-Shrnut\'{i}
+Anotace
 }
 
 \def\AbstractTitlesk{%
@@ -347,6 +347,10 @@ Advisor:
 \setcounter{page}{1}
 \pagenumbering{roman}}
 
+\def\AuthorTitlecs{
+Autor pr\'{a}ce:
+}
+
 % command to typeset thesis title page
 \newcommand{\ThesisTitlePage}{
 \begin{alwayssingle}
@@ -364,9 +368,14 @@ Advisor:
 \let\footnoterule\relax{}
 {\titlefont\bf\@thesistitle\par\vfil}\vskip 0.8in
 {\sc \@thesissubtitle}\\[0.3in]
-{\Large\bf\@thesisstudent}
+%{\Large\bf\@thesisstudent}
+{\thesisplaceyear}
 \par\vfill
-{\large \thesisplaceyear}
+\begin{tabular}{p{0.65\textwidth}l}
+%\hspace{2in} \= \hspace{2in} \kill
+\AdvisorTitlecs & \AuthorTitlecs \\
+\@thesisadvisor & \@thesisstudent \\
+\end{tabular}
 \end{center}
 \end{alwayssingle}
 \newpage}
