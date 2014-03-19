@@ -348,7 +348,7 @@ Advisor:
 \pagenumbering{roman}}
 
 \def\AuthorTitlecs{
-Autor pr\'{a}ce:
+Autorka pr\'{a}ce:
 }
 
 % command to typeset thesis title page
@@ -384,13 +384,14 @@ Autor pr\'{a}ce:
 % declaration in specified language
 \newenvironment{ThesisDeclaration}{%
 \begin{alwayssingle}
+\vspace*{\fill}
 \ifx\@thesislang\Langcs
- \chapter*{\DeclarationTitlecs}
+ \section*{\DeclarationTitlecs}
  \else \ifx\@thesislang\Langsk
-  \chapter*{\DeclarationTitlesk}
+  \section*{\DeclarationTitlesk}
   \else \ifx\@thesislang\Langen
-   \chapter*{\DeclarationTitleen}
-   \else \chapter*{\DeclarationTitlecs}
+   \section*{\DeclarationTitleen}
+   \else \section*{\DeclarationTitlecs}
   \fi
  \fi
 \fi}
@@ -401,17 +402,18 @@ Autor pr\'{a}ce:
 % new environment that typesets thesis thank
 \newenvironment{ThesisThanks}{%
 \begin{alwayssingle}
+\vspace*{\fill}
 \ifx\@thesislang\Langcs
- \chapter*{\ThanksTitlecs}
+ \section*{\ThanksTitlecs}
  \else \ifx\@thesislang\Langsk
-  \chapter*{\ThanksTitlesk}
+  \section*{\ThanksTitlesk}
   \else \ifx\@thesislang\Langen
-   \chapter*{\ThanksTitleen}
-   \else \chapter*{\ThanksTitlecs}
+   \section*{\ThanksTitleen}
+   \else \section*{\ThanksTitlecs}
   \fi
  \fi
 \fi}
-{\par\vfill
+{\par\vfil
 \end{alwayssingle}
 \newpage}
 
